@@ -63,9 +63,9 @@ document.getElementById("choice2").addEventListener("click", function () {
 });
       document.getElementById("choice3").addEventListener("click", function () {
        
-        checkAnswer(3);
+         checkAnswer(3);
 
-      });
+  });
 
 
 document.getElementById("choice4").addEventListener("click", function () {
@@ -80,8 +80,8 @@ function checkAnswer(userAnswer) {
   // Checking if the answer is correct
   if (currentQuestion[`answer`] === currentQuestion[userAnswer]) {
 
-    alert("Correct Answer! Press Next to go to the other question.");
-    score++;
+      alert("Correct Answer! Press Next to go to the other question.");
+      score++;
 
   } else {
     alert("Wrong Answer! The correct answer is " + 
@@ -99,8 +99,18 @@ document.querySelector(".next-Question").addEventListener("click", function () {
   } else {
     alert("No more  questions! Press Repeat to start over." );
     
+    
   }
 });
+
+
+function hoverEffect(element) {
+  element.style.background = '#bbb';
+  
+}
+function removeEffect(element) { 
+  element.style.background = '';
+}
 //  Repeat button
         document.querySelector(".repeat").addEventListener("click", function () {
      index = 0; // Reset the index to start

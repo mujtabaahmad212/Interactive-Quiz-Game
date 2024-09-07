@@ -24,7 +24,7 @@
   overflow: hidden;
   position: relative;
   width: 40%;
-  
+
   border: 1px solid #ffffff;
   background-color: #ffffff00;
   border-radius: 20px;
@@ -56,12 +56,10 @@ button {
   color: rgb(0, 0, 0);
   font-size: 20px;
   cursor: pointer;
-  transition: 0.3s all linear;
+
   display: block;
 
-  &&:hover {
-    background-color: rgb(156, 156, 156);
-  }
+ 
 }
 
 p {
@@ -84,32 +82,24 @@ h1 {
   font-size: 30px;
   margin-top: 10px;
 }
-.next-Question{
+.next-Question {
   width: 100%;
   font-size: large;
   padding: 10px;
   background-color: #043efc;
-  color: rgb(255, 255, 255); 
-  &&:hover {
-    background-color: rgb(0, 28, 171);
-  }
+  color: rgb(255, 255, 255);
 }
-.repeat{
+.repeat {
   width: 100%;
   padding: 10px;
   background-color: #fc0404;
   font-size: large;
-  color: rgb(255, 255, 255); 
-  &&:hover {
-    background-color: rgb(175, 0, 0);
-  }
+  color: rgb(255, 255, 255);
 }
-.next-repeat-btn{
+.next-repeat-btn {
   display: flex;
   width: 100%;
   align-items: center;
   margin: 0 auto;
   gap: 10px;
- 
-
 }
