@@ -103,3 +103,29 @@ h1 {
   margin: 0 auto;
   gap: 10px;
 }
+
+.message {
+  text-align: center;
+  background-color: #ffffff42;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 10px auto;
+  font-size: 20px;
+  display: none;
+}
+@media (max-width: 1000px) {
+  
+  .box{
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 468px) {
+  
+  .box{
+    width: 100%;
+    height: auto;
+  }
+}
